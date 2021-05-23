@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    float debito, credito, saldo, nConta, saldoAtual;
+    
+    printf("Digite seu numero de conta \n");
+    scanf("%f", &nConta);
+    
+    printf("Digite seu saldo \n");
+    scanf("%f", &saldo);
+    
+    printf("Digite seu credito \n");
+    scanf("%f", &credito);
+    
+    printf("Digite seu debito \n");
+    scanf("%f", &debito);
+    
+    saldoAtual = saldo - debito + credito;
+    
+    printf("Saldo atual: %.f", saldoAtual);
+
+    return 0;
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    
+   int num1, num2;
+
+  printf("Digite o primeiro valor: \n");
+  scanf("%i", &num1);
+
+  printf("Digite o segundo valor: \n");
+  scanf("%i", &num2);
+
+    if(num1 > num2){
+        printf("PRIMEIRO");
+    }else if(num2 > num1){
+        printf("SEGUNDO");
+    }else if (num1 == num2){
+        printf("IGUAIS");
+    }
+    
+    return 0;
+}

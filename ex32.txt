@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+   char time1, time2;
+   int golsTime1, golsTime2;
+   
+  printf("Digite o nome do time 1: \n");
+  scanf("%c", &time1);
+
+  printf("Digite o nome do time 2: \n");
+  scanf("%c", &time2);
+  
+  printf("Numero de gols do time 1: \n");
+  scanf("%i", &golsTime1);
+  
+  printf("Numero de gols do time 2: \n");
+  scanf("%i", &golsTime2);
+
+    if(golsTime1 > golsTime2){
+        printf("Time vencendor: %c", time1);
+    }else if(golsTime2 > golsTime1){
+        printf("Time vencendor: %c", time2);
+    }
+    
+    return 0;
+}
